@@ -17,6 +17,13 @@ html {
   padding: 12px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  /* Full screen up to 619px (500px) */
+  /* Half screen from 620px+ (250px)
+}
+
 @media screen and (min-width: 280px) {
   html {
     padding: 8.571428571%; /* 24px / 280px = 8.571428571% */
@@ -26,5 +33,12 @@ html {
 @media screen and (min-width: 490px) {
   html {
     padding: 9.795918367%; /* 48px / 490px = 9.795918367% */
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .photo {
+    width: 50%;
+    float: left;
   }
 }
