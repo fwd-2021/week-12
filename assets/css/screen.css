@@ -11,4 +11,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   color: #EEE;
   background-color: #222;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
+  padding: 12px;
+}
+
+@media screen and (min-width: 280px) {
+  html {
+    padding: 8.571428571%; /* 24px / 280px = 8.571428571% */
+  }
+}
+
+@media screen and (min-width: 490px) {
+  html {
+    padding: 9.795918367%; /* 48px / 490px = 9.795918367% */
+  }
 }
